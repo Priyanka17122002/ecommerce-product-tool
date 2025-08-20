@@ -1,3 +1,6 @@
+# Class Diagram
+
+```mermaid
 classDiagram
     class Product {
       +int id
@@ -20,3 +23,5 @@ classDiagram
 
     Product "1" --> "*" ProductAttributeValue : has
     Attribute "1" --> "*" ProductAttributeValue : describes
+
+ 
